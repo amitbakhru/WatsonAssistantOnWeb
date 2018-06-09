@@ -8,8 +8,8 @@ app = Flask(__name__)
 sio = SocketIO(app, asyc_mode='eventlet')
 thread=None
 
-assistant = AssistantV1(username = '4cae92bc-09c2-46d4-b4c5-21fa4f2527a5',
-                           password = 'A3SXrQDsAZJU',
+assistant = AssistantV1(username = 'username',
+                           password = 'password',
                            version = '2018-02-16')
 workspace_id = '49dee8c1-cd3d-43f7-9914-33cbdaace889'
 context = {}
